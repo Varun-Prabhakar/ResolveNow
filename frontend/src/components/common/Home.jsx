@@ -11,13 +11,13 @@ const Home = () => {
       <>
          <Navbar bg="dark" variant="dark">
             <Container>
-               <Navbar.Brand>ComplaintCare </Navbar.Brand>
+               <Navbar.Brand><b>RESOLVE NOW</b> </Navbar.Brand>
                <ul className="navbar-nav">
                   <li className="nav-item mb-2">
                      <Link to={'/'}
                         className={`nav-link text-light `}
                      >
-                        Home
+                        <b>Home</b>
                      </Link>
                   </li>
                   {/* <li className="nav-item mb-2">
@@ -33,7 +33,7 @@ const Home = () => {
                      to={'/signup'}
                         className={`nav-link text-light `}
                      >
-                        SignUp
+                        <b>SignUp</b>
                      </Link>
                   </li>
                   <li className="nav-item mb-2">
@@ -41,7 +41,7 @@ const Home = () => {
                      to={'/login'}
                         className={`nav-link text-light `}
                      >
-                        Login
+                        <b>Login</b>
                      </Link>
                   </li>
                </ul>
@@ -49,14 +49,14 @@ const Home = () => {
          </Navbar>
          <Container className='home-container'>
             <div className="left-side">
-               <img src={Image1} alt="" />
+               <img src="https://i.ibb.co/CMNfVFN/1000140034-removebg.png" alt="" />
             </div>
             <div className="right-side">
                <p>
-                  <span className='f-letter'>Empower Your Team,</span><br />
-                  <span className='s-letter'> Exceed Customer Expectations: Discover our</span> <br />
-                  <span className='t-letter'>Complaint Management Solution</span><br />
-                  <Link to={'/Login'}><Button className='mt-3 register'>Register your Compliant</Button></Link>
+                  <span className='f-letter'><b>SWIFT  RESOLVE</b></span><br />
+                  <span className='s-letter'> "Faster <b>Complaints</b>, Instant <b>Solutions</b></span> <br />
+                  <span className='t-letter'>"Voice Your <b>Concerns</b>, We’ll Handle the <b>Rest."</b></span><br />
+                  <Link to={'/Login'}><Button className='mt-3 register'><b>Register your Compliant</b></Button></Link>
                </p>
             </div>
          </Container>

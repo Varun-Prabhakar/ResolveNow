@@ -6,7 +6,7 @@ export default function FooterC() {
     <MDBFooter style={{height: '112px', marginTop: '101px'}} bgColor='dark' className='text-center text-lg-left'>
       <div className='text-center p-3'>
         <p className='text-light'>
-          ComplaintCare
+          <b>RESOLVE NOW </b>
         </p>
         <p className='text-light'>&copy; {new Date().getFullYear()}</p>
       </div>

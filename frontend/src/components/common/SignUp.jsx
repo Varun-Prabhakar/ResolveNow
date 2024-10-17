@@ -46,13 +46,13 @@ const SignUp = () => {
       <>
          <Navbar bg="dark" variant="dark">
             <Container>
-               <Navbar.Brand>ComplaintCare </Navbar.Brand>
+               <Navbar.Brand><b>RESOLVE NOW</b></Navbar.Brand>
                <ul className="navbar-nav">
                   <li className="nav-item mb-2">
                      <Link to={'/'}
                         className={`nav-link text-light `}
                      >
-                        Home
+                        <b>Home</b>
                      </Link>
                   </li>
                   <li className="nav-item mb-2">
@@ -60,7 +60,7 @@ const SignUp = () => {
                      to={'/signup'}
                         className={`nav-link text-light `}
                      >
-                        SignUp
+                        <b>SignUp</b>
                      </Link>
                   </li>
                   <li className="nav-item mb-2">
@@ -68,7 +68,7 @@ const SignUp = () => {
                      to={'/login'}
                         className={`nav-link text-light `}
                      >
-                        Login
+                        <b>Login</b>
                      </Link>
                   </li>
                </ul>
@@ -81,24 +81,24 @@ const SignUp = () => {
                      <div className="card bg-dark text-white">
                         <div className="card-body p-5 text-center">
                            <div className="mb-md-5 mt-md-4 pb-5">
-                              <h2 className="fw-bold mb-4 ">SignUp For Registering the Complaint</h2>
-                              <p className="text-white-50 mb-4">Please enter your Details</p>
+                              <h2 className="fw-bold mb-4 ">SignUp For Registering your Complaint</h2>
+                              <p className="text-white-50 mb-4"><b><u>Please Enter Your Details</u></b></p>
                               <form onSubmit={handleSubmit}>
                                  <div className="form-outline form-white mb-4">
                                     <input type="name" name="name" value={user.name} onChange={handleChange} className="form-control form-control-lg" required />
-                                    <label className="form-label" htmlFor="name">Full Name</label>
+                                    <label className="form-label" htmlFor="name"><b>Full Name </b></label>
                                  </div>
                                  <div className="form-outline form-white mb-4">
                                     <input type="email" name="email" value={user.email} onChange={handleChange} className="form-control form-control-lg" required />
-                                    <label className="form-label" htmlFor="email">Email</label>
+                                    <label className="form-label" htmlFor="email"><b>Email </b></label>
                                  </div>
                                  <div className="form-outline form-white mb-4">
                                     <input type="password" name="password" value={user.password} onChange={handleChange} className="form-control form-control-lg" required />
-                                    <label className="form-label" htmlFor="password">Password</label>
+                                    <label className="form-label" htmlFor="password"><b>Password</b></label>
                                  </div>
                                  <div className="form-outline form-white mb-4">
                                     <input type="phone" name="phone" value={user.phone} onChange={handleChange} className="form-control form-control-lg" required />
-                                    <label className="form-label" htmlFor="mobile">Mobile No.</label>
+                                    <label className="form-label" htmlFor="mobile"><b>Mobile No.</b></label>
                                  </div>
                                  <div className="form-outline form-white mb-4">
                                     <Dropdown>
@@ -112,9 +112,9 @@ const SignUp = () => {
                                           <Dropdown.Item onClick={() => handleTitle("Agent")}>Agent</Dropdown.Item>
                                        </Dropdown.Menu>
                                     </Dropdown>
-                                    <label className="form-label" htmlFor="mobile">Select User Type</label>
+                                    <label className="form-label" htmlFor="mobile"><b>Select User Type</b></label>
                                  </div>
-                                 <button className="btn btn-outline-light btn-lg px-5 mt-3" type="submit">Register</button>
+                                 <button className="btn btn-outline-light btn-lg px-5 mt-3" type="submit"><b>Register</b></button>
                               </form>
                            </div>
                            <div>

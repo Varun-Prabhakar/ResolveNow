@@ -53,13 +53,13 @@ const Login = () => {
       <>
          <Navbar bg="dark" variant="dark">
             <Container>
-               <Navbar.Brand>ComplaintCare </Navbar.Brand>
+               <Navbar.Brand><b>RESOLVE NOW</b></Navbar.Brand>
                <ul className="navbar-nav">
                   <li className="nav-item mb-2">
                      <Link to={'/'}
                         className={`nav-link text-light `}
                      >
-                        Home
+                        <b>Home</b>
                      </Link>
                   </li>
                   <li className="nav-item mb-2">
@@ -67,7 +67,7 @@ const Login = () => {
                      to={'/signup'}
                         className={`nav-link text-light `}
                      >
-                        SignUp
+                        <b>SignUp</b>
                      </Link>
                   </li>
                   <li className="nav-item mb-2">
@@ -75,7 +75,7 @@ const Login = () => {
                      to={'/login'}
                         className={`nav-link text-light `}
                      >
-                        Login
+                        <b>Login</b>
                      </Link>
                   </li>
                </ul>
@@ -89,15 +89,15 @@ const Login = () => {
                         <div className="card-body p-5 text-center">
                            <div className="mb-md-5 mt-md-4 pb-5">
                               <h2 className="fw-bold mb-4">Login For Registering the Complaint</h2>
-                              <p className="text-white-50 mb-5">Please enter your Credentials!</p>
+                              <p className="text-white-50 mb-5"><b><u>Please Enter Your Credentials!</u></b></p>
                               <form onSubmit={handleSubmit}>
                                  <div className="form-outline form-white mb-4">
                                     <input type="email" name="email" value={user.email} onChange={handleChange} className="form-control form-control-lg" required />
-                                    <label className="form-label" htmlFor="email">Email</label>
+                                    <label className="form-label" htmlFor="email"><b>Email</b></label>
                                  </div>
                                  <div className="form-outline form-white mb-4">
                                     <input type="password" name="password" value={user.password} onChange={handleChange} className="form-control form-control-lg" autoComplete="off" required />
-                                    <label className="form-label" htmlFor="password">Password</label>
+                                    <label className="form-label" htmlFor="password"><b>Password</b></label>
                                  </div>
 
                                  <button className="btn btn-outline-light btn-lg px-5" type="submit">Login</button>
