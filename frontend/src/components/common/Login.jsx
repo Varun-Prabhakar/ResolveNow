@@ -100,11 +100,11 @@ const Login = () => {
                                     <label className="form-label" htmlFor="password"><b>Password</b></label>
                                  </div>
 
-                                 <button className="btn btn-outline-light btn-lg px-5" type="submit">Login</button>
+                                 <button className="btn btn-outline-light btn-lg px-5" type="submit"><b>Login</b></button>
                               </form>
                            </div>
                            <div>
-                              <p className="mb-0">Don't have an account? <Link to="/SignUp">SignUp</Link></p>
+                              <p className="mb-0">Don't have an account? <Link to="/SignUp"><b>SignUp</b></Link></p>
                            </div>
                         </div>
                      </div>
